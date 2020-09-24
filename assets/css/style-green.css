@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(87,196,142, .8);
   height: 60px;
   padding: 10px 0;
 }
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #a2cce3;
+  color: #a2e3bd;
   text-decoration: none;
 }
 
@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 86, 63, 0.8), rgba(30, 86, 63, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #68c48e;
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -402,11 +402,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #68c490;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
+  background: #68c49b;
   color: #fff;
   text-decoration: none;
 }
@@ -2185,7 +2185,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #42976d;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2340,7 +2340,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1e4356;
+  background: #2e7b55;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
